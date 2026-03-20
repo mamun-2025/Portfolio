@@ -211,6 +211,88 @@ class="fixed top-5 right-5 bg-gray-700 px-4 py-2 rounded z-50">
 </section>
 
 
+<!-- Projects Section-->
+<section class="max-w-7xl mx-auto px-6 py-20" data-aos="fade-up">
+  <div class="flex items-center gap-4 mb-12">
+    <h2 class="text-4xl font-bold text-white">Featured <span class="text-blue-500">Projects</span></h2>
+    <div class="h-[1px] bg-gray-700 flex-1 shadow-sm"></div>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+    <div class="group relative bg-gray-900 border border-gray-800 rounded-3xl overflow-hidden hover:border-blue-500/50 transition-all duration-500 shadow-2xl flex flex-col">
+      <div class="relative h-56 overflow-hidden">
+        <img src="images/task_list.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Task Manager">
+        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent opacity-90"></div>
+        <div class="absolute bottom-4 left-6 flex gap-2">
+          <span class="px-3 py-1 bg-blue-500/20 backdrop-blur-md border border-blue-500/30 text-blue-400 text-[10px] rounded-full font-mono uppercase">Django</span>
+          <span class="px-3 py-1 bg-emerald-500/20 backdrop-blur-md border border-emerald-500/30 text-emerald-400 text-[10px] rounded-full font-mono uppercase">PostgreSQL</span>
+        </div>
+      </div>
+      <div class="p-6 flex-1 flex flex-col">
+        <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors">Task Manager API</h3>
+        <p class="text-gray-400 mt-3 text-sm leading-relaxed flex-1">
+          A robust backend solution for managing workflows with JWT authentication and automated status tracking.
+        </p>
+        <div class="mt-6 flex items-center gap-5 border-t border-gray-800 pt-4">
+          <a href="https://task-manager-app-l3r1.onrender.com" class="text-xs font-bold text-white hover:text-blue-400 flex items-center gap-1">LIVE DEMO ↗</a>
+          <a href="https://github.com/mamun-2025/task-management-system" class="text-xs font-bold text-gray-500 hover:text-white flex items-center gap-1">GITHUB 💻</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="group relative bg-gray-900 border border-gray-800 rounded-3xl overflow-hidden hover:border-emerald-500/50 transition-all duration-500 shadow-2xl flex flex-col">
+      <div class="relative h-56 overflow-hidden">
+        <img src="images/post.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Blog App">
+        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent opacity-90"></div>
+        <div class="absolute bottom-4 left-6 flex gap-2">
+          <span class="px-3 py-1 bg-emerald-500/20 backdrop-blur-md border border-emerald-500/30 text-emerald-400 text-[10px] rounded-full font-mono uppercase">DRF</span>
+          <span class="px-3 py-1 bg-orange-500/20 backdrop-blur-md border border-orange-500/30 text-orange-400 text-[10px] rounded-full font-mono uppercase">Redis</span>
+        </div>
+      </div>
+      <div class="p-6 flex-1 flex flex-col">
+        <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">Blog Application</h3>
+        <p class="text-gray-400 mt-3 text-sm leading-relaxed flex-1">
+          High-performance blogging platform with full-text search, category filtering, and real-time caching.
+        </p>
+        <div class="mt-6 flex items-center gap-5 border-t border-gray-800 pt-4">
+          <a href="https://smart-tech-blog.onrender.com" class="text-xs font-bold text-white hover:text-emerald-400 flex items-center gap-1">LIVE DEMO ↗</a>
+          <a href="https://github.com/mamun-2025/smart-tech-blog" class="text-xs font-bold text-gray-500 hover:text-white flex items-center gap-1">GITHUB 💻</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="group relative bg-gray-900 border border-gray-800 rounded-3xl overflow-hidden hover:border-purple-500/50 transition-all duration-500 shadow-2xl flex flex-col">
+      <div class="relative h-56 overflow-hidden">
+        <img src="images/private_chat.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Chat App">
+        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent opacity-90"></div>
+        <div class="absolute top-4 right-4 flex items-center gap-1.5 px-2 py-1 bg-purple-500/20 rounded-lg backdrop-blur-sm">
+          <span class="relative flex h-2 w-2">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-purple-500"></span>
+          </span>
+          <span class="text-[9px] font-bold text-purple-300">WS LIVE</span>
+        </div>
+        <div class="absolute bottom-4 left-6 flex gap-2">
+          <span class="px-3 py-1 bg-purple-500/20 backdrop-blur-md border border-purple-500/30 text-purple-400 text-[10px] rounded-full font-mono uppercase">Channels</span>
+          <span class="px-3 py-1 bg-yellow-500/20 backdrop-blur-md border border-yellow-500/30 text-yellow-400 text-[10px] rounded-full font-mono uppercase">WebSockets</span>
+        </div>
+      </div>
+      <div class="p-6 flex-1 flex flex-col">
+        <h3 class="text-xl font-bold text-white group-hover:text-purple-400 transition-colors">Real-time Chat App</h3>
+        <p class="text-gray-400 mt-3 text-sm leading-relaxed flex-1">
+          Instant messaging system with room-based communication and message persistence using Django Channels.
+        </p>
+        <div class="mt-6 flex items-center gap-5 border-t border-gray-800 pt-4">
+          <a href="https://real-time-chat-app-yipe.onrender.com/chat/" class="text-xs font-bold text-white hover:text-purple-400 flex items-center gap-1">LIVE DEMO ↗</a>
+          <a href="https://github.com/mamun-2025" class="text-xs font-bold text-gray-500 hover:text-white flex items-center gap-1">GITHUB 💻</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
 
 
