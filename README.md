@@ -31,9 +31,13 @@ PORTFOLIO/
 I completed my Diploma in 2022. Despite financial challenges and working as a Security Guard, I dedicate my free time to mastering Backend Engineering. This portfolio is a result of my dedication and hard work.
 
 ## 🚀 Live Demo
-Check out the live site here: []
+Check out my portfolio website here: 
+[🌐 Live Site](https://your-live-site-link.com)
 
-# 📬 Contact Me
-- LinkedIn: Mamun Bepari
-- WhatsApp: +8801964766244
-- Email: beparimamun766@gmail.com
+---
+
+## 📬 Contact Me
+
+**LinkedIn**|[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mamun%20Bepari-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mamun-bepari-8b367a378/)|
+**WhatsApp**|[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat-green?style=for-the-badge&logo=whatsapp)](https://wa.me/8801964766244)|
+**Email**|[![Email](https://img.shields.io/badge/Email-beparimamun766@gmail.com-red?style=for-the-badge&logo=gmail)](mailto:beparimamun766@gmail.com)|
