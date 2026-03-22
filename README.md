@@ -42,7 +42,7 @@ I completed my Diploma in 2022. Despite financial challenges and working as a Se
 
 ## 🚀 Live Demo
 Check out my portfolio website here: 
-[🌐 Live Site](https://hilarious-mousse-50dfbb.netlify.app/)
+[🌐 Live Site](https://boisterous-halva-520b0d.netlify.app/)
 
 ---
 
